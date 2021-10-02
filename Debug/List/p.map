@@ -1,0 +1,111 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+glcd_state                                                                        0x030E      29
+ks0108_coord                                                                      0x032B       3
+_seed                                                                             0x032E       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+avg_eeprom                                                                        0x0000     100
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x001FB     15
+get_key                                                                           0x0020A     95
+main                                                                              0x00269    837
+put_buff_G100                                                                     0x005AE     58
+_ftoe_G100                                                                        0x005E8    210
+_print_G100                                                                       0x006BA    538
+sprintf                                                                           0x008D4     52
+ftrunc                                                                            0x00908     49
+floor                                                                             0x00939     22
+ks0108_enable_G102                                                                0x0094F      4
+ks0108_disable_G102                                                               0x00953      4
+ks0108_rdbus_G102                                                                 0x00957      7
+ks0108_busy_G102                                                                  0x0095E     24
+ks0108_wrcmd_G102                                                                 0x00976      6
+ks0108_setloc_G102                                                                0x0097C     18
+ks0108_gotoxp_G102                                                                0x0098E     15
+ks0108_nextx_G102                                                                 0x0099D     21
+ks0108_wrdata_G102                                                                0x009B2      9
+ks0108_rddata_G102                                                                0x009BB      9
+ks0108_rdbyte_G102                                                                0x009C4     11
+glcd_init                                                                         0x009CF    101
+glcd_clear                                                                        0x00A34     38
+glcd_putpixel                                                                     0x00A5A     39
+ks0108_wrmasked_G102                                                              0x00A81     59
+glcd_block                                                                        0x00ABC    477
+glcd_clipx                                                                        0x00C99     21
+glcd_clipy                                                                        0x00CAE     21
+glcd_setpixel                                                                     0x00CC3     10
+glcd_getcharw_G103                                                                0x00CCD    111
+glcd_new_line_G103                                                                0x00D3C     20
+glcd_putchar                                                                      0x00D50     98
+glcd_outtextxy                                                                    0x00DB2     20
+glcd_putpixelm_G103                                                               0x00DC6     27
+glcd_moveto                                                                       0x00DE1     13
+glcd_line                                                                         0x00DEE    246
+memset                                                                            0x00EE4     16
+strcpyf                                                                           0x00EF4     13
+strlen                                                                            0x00F01     12
+strlenf                                                                           0x00F0D     13
+ftoa                                                                              0x00F1A    194
+glcd_getmask                                                                      0x00FDC     11
+glcd_mappixcolor1bit                                                              0x00FE7     40
+glcd_readmem                                                                      0x0100F     31
+glcd_writemem                                                                     0x0102E     31
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x001FB     15
+get_key                                                                           0x0020A     95
+main                                                                              0x00269    837
+put_buff_G100                                                                     0x005AE     58
+_ftoe_G100                                                                        0x005E8    210
+_print_G100                                                                       0x006BA    538
+sprintf                                                                           0x008D4     52
+ftrunc                                                                            0x00908     49
+floor                                                                             0x00939     22
+ks0108_enable_G102                                                                0x0094F      4
+ks0108_disable_G102                                                               0x00953      4
+ks0108_rdbus_G102                                                                 0x00957      7
+ks0108_busy_G102                                                                  0x0095E     24
+ks0108_wrcmd_G102                                                                 0x00976      6
+ks0108_setloc_G102                                                                0x0097C     18
+ks0108_gotoxp_G102                                                                0x0098E     15
+ks0108_nextx_G102                                                                 0x0099D     21
+ks0108_wrdata_G102                                                                0x009B2      9
+ks0108_rddata_G102                                                                0x009BB      9
+ks0108_rdbyte_G102                                                                0x009C4     11
+glcd_init                                                                         0x009CF    101
+glcd_clear                                                                        0x00A34     38
+glcd_putpixel                                                                     0x00A5A     39
+ks0108_wrmasked_G102                                                              0x00A81     59
+glcd_block                                                                        0x00ABC    477
+glcd_clipx                                                                        0x00C99     21
+glcd_clipy                                                                        0x00CAE     21
+glcd_setpixel                                                                     0x00CC3     10
+glcd_getcharw_G103                                                                0x00CCD    111
+glcd_new_line_G103                                                                0x00D3C     20
+glcd_putchar                                                                      0x00D50     98
+glcd_outtextxy                                                                    0x00DB2     20
+glcd_putpixelm_G103                                                               0x00DC6     27
+glcd_moveto                                                                       0x00DE1     13
+glcd_line                                                                         0x00DEE    246
+memset                                                                            0x00EE4     16
+strcpyf                                                                           0x00EF4     13
+strlen                                                                            0x00F01     12
+strlenf                                                                           0x00F0D     13
+ftoa                                                                              0x00F1A    194
+glcd_getmask                                                                      0x00FDC     11
+glcd_mappixcolor1bit                                                              0x00FE7     40
+glcd_readmem                                                                      0x0100F     31
+glcd_writemem                                                                     0x0102E     31
